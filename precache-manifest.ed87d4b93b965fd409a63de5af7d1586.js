@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b0f0ceb553a4c4c78396",
+    "revision": "955bf598870994129ce5",
     "url": "/UofT-Exam/static/css/main.f1f18e77.chunk.css"
   },
   {
-    "revision": "b0f0ceb553a4c4c78396",
-    "url": "/UofT-Exam/static/js/main.b0f0ceb5.chunk.js"
+    "revision": "955bf598870994129ce5",
+    "url": "/UofT-Exam/static/js/main.955bf598.chunk.js"
   },
   {
     "revision": "0923ec394fa3daf591c8",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/UofT-Exam/static/js/runtime~main.f537024b.js"
   },
   {
-    "revision": "49e6619a1cc2f74cb40cf50f32692e13",
+    "revision": "5ca77b5e183680ce1bfd5b46d51a1f41",
     "url": "/UofT-Exam/index.html"
   }
 ];
