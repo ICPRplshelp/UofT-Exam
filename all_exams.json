@@ -1,0 +1,14 @@
+{
+  "examTerms": [
+    {
+      "session": "20231",
+      "path": "exams_20231.json",
+      "name": "Winter 2023"
+    },
+    {
+      "session": "20229",
+      "path": "exams_20229.json",
+      "name": "Fall 2022"
+    }
+  ]
+}
