@@ -54,7 +54,7 @@ function ExamTimingComponent(props: SingleTiming) {
     const timingInfo = props.examTiming;
     return (
         <div>
-            {timingInfo.course} | {timingInfo.date} | {timingInfo.start}-{timingInfo.end} | {timingInfo.location}
+            {timingInfo.course} | {timingInfo.date} | {timingInfo.start}-{timingInfo.end} | {timingInfo.location} | {timingInfo.split.replaceAll(" ", "")}
         </div>
     )
 }

@@ -97,7 +97,8 @@ class DoubleLastNameSplit implements LastNameSplit {
 
     isInSplit(lastName: string): boolean {
         const lastNameUpper = lastName.toUpperCase();
-        return this.start <= lastNameUpper.substring(this.start.length)
-            && lastNameUpper.substring(this.end.length) <= this.end;
+        // console.log(`is ${this.start}-${this.end} || `, this.start <= lastNameUpper.substring(this.start.length), lastNameUpper.substring(this.end.length) <= this.end);
+        return this.start <= lastNameUpper.substring(0, this.start.length)
+            && lastNameUpper.substring(0, this.end.length) <= this.end;
     }
 }
