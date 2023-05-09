@@ -9,6 +9,7 @@ import FormControl from '@mui/material/FormControl';
 import Select, {SelectChangeEvent} from '@mui/material/Select';
 
 
+
 type Decision = {
     course: string;
     section: string;  // blank if all / not stated
@@ -32,7 +33,7 @@ function searchExamTimings(eTimes: ExamTiming[], decision: Decision, lastName: s
     const section = decision.section;
     for (let et of eTimes) {
         if (courseCode !== et.course) continue;
-        console.log(et.course);
+        // console.log(et.course);
         if (et.section !== "ALL" && section !== et.section) continue;
         // last name split detector
         const split = createSplit(et.split);
@@ -75,7 +76,7 @@ function ExamDecisionWrapper(props: PropsToExamDecisionWrapper) {
         return 0;
 
     });
-    console.log("Display courses", displayCourses)
+    // console.log("Display courses", displayCourses)
     return (
         <div>
             <div>
@@ -85,7 +86,9 @@ function ExamDecisionWrapper(props: PropsToExamDecisionWrapper) {
     )
 }
 
-
+function removeTrailingSlashes(str: string): string {
+    return str.replace(/\/+$/, '');
+}
 
 function App() {
 
@@ -96,7 +99,8 @@ function App() {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch("/exams_20231.json");
+            console.log("Fetching from ", `${process.env.PUBLIC_URL}/exams_20231.json`)
+            const response = await fetch(`${removeTrailingSlashes(process.env.PUBLIC_URL)}/exams_20231.json`);
             const responseJson = await response.json();
             setExamRequestData(responseJson);
         }
@@ -108,7 +112,7 @@ function App() {
     let tempVar = "Among us";
 
     function handleDataUpdate(data: Decision[]) {
-        console.log('Table data updated:', data);
+        // console.log('Table data updated:', data);
         setDecisionInput(data);
     }
 
@@ -134,12 +138,15 @@ function App() {
                     <div style={whiteBG}>
                         <BasicSelect onSessionUpdate={(ses) => {
                             async function fetchSession(session: string) {
-                                const response = await fetch(`/exams_${session}.json`);
+                                const response = await fetch(`${removeTrailingSlashes(process.env.PUBLIC_URL)}/exams_${session}.json`);
                                 const responseJson = await response.json();
                                 setExamRequestData(responseJson);
                             }
 
-                            fetchSession(ses).then(() => console.log("Fetched session", ses));
+                            fetchSession(ses).then(() => {}
+
+
+                            );
                         }
                         }/></div>
 
@@ -161,12 +168,13 @@ function App() {
                         />) : null
                     }
                     <div className="Small-width">
-                        <p> Enter the course in COURSE and section in SECTION.
+                        <p> Enter the course in COURSE and section in SECTION. This updates in real time.
                         </p>
                         <p>You must type the FULL course code, including the campus number and section. For example, CSC108<strong>H1F</strong>.</p>
                         <p>You only need the section if the course splits exams on sections, which is rare.</p>
                         <p>Online exams will not display. If your last name is not in any split, the course will not show.</p>
                         <p>Your surname is not case sensitive.</p>
+
 
 
                     </div>

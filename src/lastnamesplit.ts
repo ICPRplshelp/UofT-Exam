@@ -32,7 +32,7 @@ class MultiLastNameSplit implements LastNameSplit {
 
     constructor(splitStr: string) {
         this.otherSplits = [];
-        let splitted2 = splitStr.split(',')
+        let splitted2 = splitStr.split(',').filter((s) => s.trim() !== '')
             .map(s => s.toUpperCase().trim().replaceAll(" ", ""));
         for (let individualSplit of splitted2) {
             let newSplit: LastNameSplit;
