@@ -49,10 +49,11 @@ class MultiLastNameSplit implements LastNameSplit {
     }
 
     isInSplit(lastName: string): boolean {
+        console.log(this);
         if (this.otherSplits.length === 0)
             return false;
         else {
-            return this.otherSplits.every((item) => item.isInSplit(lastName));
+            return this.otherSplits.some((item) => item.isInSplit(lastName));
         }
     }
 }
@@ -60,7 +61,7 @@ class MultiLastNameSplit implements LastNameSplit {
 class NoLastNameSplit
     implements LastNameSplit {
     isInSplit(lastName: string): boolean {
-        return false;
+        return true;
     }
 }
 
