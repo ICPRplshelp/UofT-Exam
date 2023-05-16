@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/UofT-Exam/precache-manifest.5a3fa90580ef182ee24673b0109c431d.js"
+  "/UofT-Exam/precache-manifest.7b6f12e0b0292d25c6318a09099ddee0.js"
 );
 
 workbox.clientsClaim();
