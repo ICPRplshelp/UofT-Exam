@@ -1,0 +1,1294 @@
+{
+  "examTimes": [
+    {
+      "course": "ACT245H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "ACT247H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "ACT370H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "AFR280Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "ANA300Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "DEPT",
+      "date": "17-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "ANT100Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "APM346H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "18-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "APM462H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "WB 116",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "AST201H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "AST251H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "19-Aug",
+      "start": "2:00PM",
+      "end": "4:00PM"
+    },
+    {
+      "course": "CHM135H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "CHM247H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "CIN105Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "19-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "CLA321H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "CRI492H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "CSC108H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "CSC207H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "22-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "CSC236H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "CSC311H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "CSC384H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "19-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "EAS120Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "WB 116",
+      "date": "18-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "EAS347H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "ECO102H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - WANG,TO",
+      "location": "EX 200",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ECO102H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "WANG,TS - ZZ",
+      "location": "EX 320",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ECO102H1S",
+      "section": "Regular Deferred",
+      "delivery": "",
+      "split": "A - KA",
+      "location": "EX 310",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ECO102H1S",
+      "section": "Regular Deferred",
+      "delivery": "",
+      "split": "KE - ZZ",
+      "location": "EX 320",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ECO200Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "19-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "ECO202Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "ECO204Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "ECO206Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "17-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "ECO208Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "ECO220Y1Y",
+      "section": "LEC0101",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "ECO220Y1Y",
+      "section": "LEC0201",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "ECO220Y1Y",
+      "section": "LEC0301",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "ECO313H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ECO316H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "ECO320H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "17-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "ECO349H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "19-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ECO353H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ECO359H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "ENG110Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "17-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "ENG357H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "ENV200H1S",
+      "section": "LEC0101",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "ESS205H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "FAH255H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "WB 116",
+      "date": "17-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "FSL100H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "FSL102H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "GER100Y1Y",
+      "section": "LEC0101",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "GER100Y1Y",
+      "section": "LEC5101",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "GGR349H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 300",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "4:00PM"
+    },
+    {
+      "course": "GRK102H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "DEPT",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "GRK202H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "DEPT",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "HIS103Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "HIS242H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "HIS389H1S",
+      "section": "LEC5101",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "HMB200H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "4:00PM"
+    },
+    {
+      "course": "HMB322H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "HPS250H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "IFP100H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "17-Aug",
+      "start": "2:00PM",
+      "end": "4:00PM"
+    },
+    {
+      "course": "IMM350H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "INS201Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "IRE347H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "JLP374H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "LAT102H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "DEPT",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "LIN102H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "LIN204H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "LIN229H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "LIN241H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "23-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "LIN306H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "18-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "MAT133Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "19-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT135H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "WB 116",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT135H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT136H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "19-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT136H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "MAT137Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT223H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "23-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT223H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - PAR",
+      "location": "BA 1130",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT223H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "PAT - ZZ",
+      "location": "BA 1180",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT224H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT224H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "22-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT235Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "18-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT237Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "19-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT244H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT246H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "MAT301H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "17-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT315H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "MAT327H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "23-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT334H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "19-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT337H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "WB 116",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MAT344H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "17-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "MAT401H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "23-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "MAT402H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "17-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "MUS210H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 300",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "PHL243H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PHL245H1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "17-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "PHL273H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PHL275H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "PHY132H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "PHY205H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "PHY252H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "22-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "PHY254H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "POL200Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "POL309H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "WB 119",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "POL379H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PSL301H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "2:00PM",
+      "end": "4:00PM"
+    },
+    {
+      "course": "PSY100H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "18-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "PSY201H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PSY202H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "23-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "PSY230H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PSY240H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PSY260H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PSY320H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "22-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "PSY343H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "PSY396H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "21-Aug",
+      "start": "7:00PM",
+      "end": "9:00PM"
+    },
+    {
+      "course": "RSM222H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "RSM270H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "RSM333H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 300",
+      "date": "19-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "SOC150H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "SOC214H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "Online",
+      "date": "N/A",
+      "start": "N/A",
+      "end": "N/A"
+    },
+    {
+      "course": "SPA100Y1Y",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 310",
+      "date": "17-Aug",
+      "start": "2:00PM",
+      "end": "4:00PM"
+    },
+    {
+      "course": "STA238H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "STA261H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "STA302H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 200",
+      "date": "17-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "STA303H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "21-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "STA305H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "17-Aug",
+      "start": "9:00AM",
+      "end": "12:00PM"
+    },
+    {
+      "course": "STA314H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 100",
+      "date": "23-Aug",
+      "start": "7:00PM",
+      "end": "10:00PM"
+    },
+    {
+      "course": "STA347H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "EX 320",
+      "date": "24-Aug",
+      "start": "9:00AM",
+      "end": "11:00AM"
+    },
+    {
+      "course": "STA457H1S",
+      "section": "ALL",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "MS 3153",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    },
+    {
+      "course": "STA457H1S",
+      "section": "Regular Deferred",
+      "delivery": "",
+      "split": "A - Z",
+      "location": "MS 3154",
+      "date": "18-Aug",
+      "start": "2:00PM",
+      "end": "5:00PM"
+    }
+  ]
+}

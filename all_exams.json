@@ -1,6 +1,11 @@
 {
   "examTerms": [
     {
+      "session": "20235S",
+      "path": "exams_20235S.json",
+      "name": "August 2023"
+    },
+    {
       "session": "20235F",
       "path": "exams_20235F.json",
       "name": "June 2023"
