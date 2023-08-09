@@ -49,7 +49,7 @@ class MultiLastNameSplit implements LastNameSplit {
     }
 
     isInSplit(lastName: string): boolean {
-        console.log(this);
+        // console.log(this);
         if (this.otherSplits.length === 0)
             return false;
         else {

@@ -88,8 +88,6 @@ function ExamDecisionWrapper(props: PropsToExamDecisionWrapper) {
     }, []);
 
 
-
-
     const decisions = props.decisionList;
     const displayCourses: ExamTiming[] = [];
     for (let i = 0; i < decisions.length; i++) {
@@ -127,7 +125,8 @@ function ExamDecisionWrapper(props: PropsToExamDecisionWrapper) {
             <div>
                 {!isSmallScreen ? (<ExamTableFormal displayCourses={displayCourses}/>) :
 
-                displayCourses.map((et) => <ExamTimingComponent key={`${et.course}-${et.location}`} examTiming={et}/>)}
+                    displayCourses.map((et) => <ExamTimingComponent key={`${et.course}-${et.location}`}
+                                                                    examTiming={et}/>)}
             </div>
         </div>
     )
@@ -176,21 +175,22 @@ function ExamTableFormal(props: ExamTimingListProp) {
 }
 
 
-function createTableData(et: ExamTiming) {
-    //             {timingInfo.course} | {timingInfo.date} | {timingInfo.start}-{timingInfo.end} | {timingInfo.location} | {timingInfo.split.replaceAll(" ", "")}
-    const course = et.course;
-    const date = et.date;
-    const start = et.start;
-    const end = et.end;
-    const location = et.location;
-    const split = et.split.replaceAll(" ", "");
-    return {course, date, start, end, location, split};
-}
-
-
 function removeTrailingSlashes(str: string): string {
     return str.replace(/\/+$/, '');
 }
+
+
+type ExamTerm = {
+    session: string;
+    path: string;
+    name: string;
+}
+
+
+type ExamInfoHolder = {
+    examTerms: ExamTerm[];
+};
+
 
 const whiteBG = {
     backgroundColor: 'white',
@@ -203,23 +203,46 @@ function App() {
     const [lastName, setLastName] = useState('');
     const [examRequestData, setExamRequestData] = useState<ExamRequest | null>(null);
     const [decisionInput, setDecisionInput] = useState<Decision[]>([]);
+    const [examInfo, setExamInfo] = useState<ExamInfoHolder | null>(null);
+    const [curSes, setCurSes] = useState<string>("");
 
+    async function fetchSession(session: string) {
+        if (session === '') {
+            console.log("No session to fetch right now")
+            return;
+        }
+        console.log("Fetching session--", session);
+        const response = await fetch(`${removeTrailingSlashes(process.env.PUBLIC_URL)}/exams_${session}.json`);
+        const responseJson = await response.json();
+        setExamRequestData(responseJson);
+    }
 
     useEffect(() => {
         document.title = "UofT ArtSci Exam Scheduler";
 
-        async function fetchData() {
-            console.log("Fetching from ", `${process.env.PUBLIC_URL}/exams_20231.json`)
-            const response = await fetch(`${removeTrailingSlashes(process.env.PUBLIC_URL)}/exams_20231.json`);
+        // ExamInfoHolder
+        async function fetchAllExamsData() {
+            const response = await fetch(`${removeTrailingSlashes(process.env.PUBLIC_URL)}/all_exams.json`);
             const responseJson = await response.json();
-            setExamRequestData(responseJson);
+            setExamInfo(responseJson);
         }
 
-        fetchData().then(() => console.log("Fetched", examRequestData));
+        fetchAllExamsData().then(() => {
+        });
+        // fetchData().then(() => console.log("Fetched", examRequestData));
     }, []);
 
-    const [counter, setCounter] = useState(0);
-    let tempVar = "Among us";
+    useEffect(() => {
+        fetchSession(curSes).then(() => {
+        });
+    }, [curSes]);
+
+    useEffect(() => {
+        if (examInfo) {
+            setCurSes(examInfo.examTerms[0].session);
+        }
+    }, [examInfo]);
+
 
     function handleDataUpdate(data: Decision[]) {
         // console.log('Table data updated:', data);
@@ -228,10 +251,7 @@ function App() {
 
 
     const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const newValue = event.target.value.toUpperCase();
         setLastName(event.target.value);
-
-
     };
 
     return (
@@ -240,18 +260,15 @@ function App() {
 
                 <h1>UofT ArtSci Exam Timetable Generator</h1>
                 <div style={whiteBG}>
-                    <BasicSelect onSessionUpdate={(ses) => {
-                        async function fetchSession(session: string) {
-                            const response = await fetch(`${removeTrailingSlashes(process.env.PUBLIC_URL)}/exams_${session}.json`);
-                            const responseJson = await response.json();
-                            setExamRequestData(responseJson);
-                        }
 
-                        fetchSession(ses).then(() => {
-                            }
-                        );
+
+                    {curSes === "" ? (<div>TBA</div>) :
+                        (<BasicSelect onSessionUpdate={(ses) => {
+                            setCurSes(ses);
+                        }
+                        } allExamInfo={examInfo}
+                                      currentSession={curSes}/>)
                     }
-                    }/>
                 </div>
 
                 <div>
@@ -294,12 +311,14 @@ function App() {
 
 type OnSelectUpdate = {
     onSessionUpdate: (ses: string) => void;
+    currentSession: string;
+    allExamInfo: ExamInfoHolder | null;
 }
 
 
 // the session selector
 function BasicSelect(props: OnSelectUpdate) {
-    const [age, setAge] = React.useState('20231');
+    const [age, setAge] = React.useState(props.currentSession);
 
     const handleChange = (event: SelectChangeEvent) => {
 
@@ -307,20 +326,27 @@ function BasicSelect(props: OnSelectUpdate) {
         props.onSessionUpdate(event.target.value);
     };
 
+
     return (
         <Box sx={{color: 'white', minWidth: 120}}>
             <FormControl fullWidth>
                 <InputLabel id="demo-simple-select-label">Session</InputLabel>
-                <Select
-                    labelId="demo-simple-select-label"
-                    id="demo-simple-select"
-                    value={age}
-                    label="Age"
-                    onChange={handleChange}
-                >
-                    <MenuItem value={20231}>Apr 2023</MenuItem>
-                    <MenuItem value={20229}>Dec 2022</MenuItem>
-                </Select>
+
+                {props.allExamInfo ?
+                    (<Select
+                        labelId="demo-simple-select-label"
+                        id="demo-simple-select"
+                        value={age}
+                        label="Age"
+                        onChange={handleChange}
+                    >
+                        {props.allExamInfo.examTerms.map((ei) => (
+                            <MenuItem value={ei.session} key={ei.session}>{ei.name}</MenuItem>))}
+                    </Select>)
+                    :
+                    (<div> TBA </div>)
+
+                }
             </FormControl>
         </Box>
     );
@@ -372,7 +398,7 @@ function MyTable(props: MyTableProps) {
                     <tr key={index}>
                         <td>
                             <div style={whiteBG}>
-                                <TextField id="outlined-basic" label="Course code" variant="outlined"
+                                <TextField id="outlined-basic" label="Course code" variant="outlined" autoComplete="off"
                                            type="text"
                                            value={row.course}
 
@@ -383,6 +409,7 @@ function MyTable(props: MyTableProps) {
                         <td>
                             <div style={whiteBG}>
                                 <TextField id="outlined-basic" label="Lecture section" variant="outlined"
+                                           autoComplete="off"
                                            type="text"
                                            value={row.section}
                                            onChange={(event) => handleChange(event, index, 'section')}
@@ -390,9 +417,9 @@ function MyTable(props: MyTableProps) {
                         </td>
                         <td style={{paddingLeft: "10px"}}>
                             <IconButton aria-label="delete"
-                                        style={{ backgroundColor: 'red', fill: '#000' }}
+                                        style={{backgroundColor: 'red', fill: '#000'}}
 
-                                onClick={() => handleRemoveRow(index)}>
+                                        onClick={() => handleRemoveRow(index)}>
                                 <CloseIcon/>
                             </IconButton>
 
